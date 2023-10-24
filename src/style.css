@@ -22,6 +22,25 @@ button:focus {
   box-shadow: none !important;
 }
 
+.tag{
+  display: inline-block;
+  padding: 0 0.5em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  white-space: nowrap;
+  box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    border: 1px solid rgba(55, 53, 47, 0.09);
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -262,6 +281,10 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  
+  background-size: cover; /* 将 background-size 设置为 "cover" */
+  height: 100vh; /* 设置高度为视口高度 */
+  margin: 0; /* 可能需要设置 margin 为 0，以去除默认的页面边距 */
 }
 
 .home-content {
@@ -271,12 +294,12 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 2.4em ;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2.5em ;
   padding-left: 45px !important;
 }
 
@@ -402,7 +425,8 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(10, 4, 22,0.5);
+  position:fixed;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -439,7 +463,6 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
 }
 /* --------- */
 /* Projects */
@@ -453,7 +476,6 @@ button:focus {
 
 .project-card {
   padding-top: 50px !important;
-  padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -463,7 +485,7 @@ button:focus {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
+  opacity: 1.0 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -483,10 +505,30 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
+  margin-top:30px;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
+  color: white;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+}
+
+.blog-card-columns {
+  display: flex;
+  flex-wrap: wrap; /* 允许卡片换行 */
+  justify-content: space-between; /* 控制列之间的空间分布 */
+  margin: 30px;
+}
+
+.blog-column {
+  flex: 0 1 calc(50% - 10px);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* 使用媒体查询，当屏幕宽度小于某个阈值时，切换为一列布局 */
+@media (max-width: 768px) {
+  .blog-column {
+    flex: 0 1 100%; /* 一列布局，占满整个宽度 */
+  }
 }
 
 .blog-link {
@@ -552,6 +594,7 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
+  color: white;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -688,7 +731,7 @@ button:focus {
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
-  font-family: sans-serif !important;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 .like-btn {
@@ -740,4 +783,93 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+.slideRight {
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: translateX(0%) scale(1);
+  transform: translateX(0%) scale(1);
+  transition: transform 0.3s; /* 添加过渡效果，使动画平滑 */
+}
+
+.slideRight:hover {
+  -webkit-transform: translateX(20%) scale(1.2); /* 在悬停时同时应用位移和缩放 */
+  transform: translateX(20%) scale(1.2);
+}
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+  }
+
+  100% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(100%) scale(1);
+    transform: translateX(100%) scale(1);
+  }
+}
+@keyframes slideRight {
+  0% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+  }
+
+  100% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(100%) scale(1);
+    transform: translateX(100%) scale(1);
+  }
+}
+
+.slideLeft {
+  -webkit-transform-origin: 100% 0; /* 将变换原点设置为右上角 */
+  transform-origin: 100% 0;
+  -webkit-transform: translateX(0%) scale(1);
+  transform: translateX(0%) scale(1);
+  transition: transform 0.3s; /* 添加过渡效果，使动画平滑 */
+}
+
+.slideLeft:hover {
+  -webkit-transform: translateX(-20%) scale(1.2); /* 在悬停时同时应用位移和缩放 */
+  transform: translateX(-20%) scale(1.2);
+}
+
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+  }
+
+  100% {
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateX(-100%) scale(1);
+    transform: translateX(-100%) scale(1);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+  }
+
+  100% {
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateX(-100%) scale(1);
+    transform: translateX(-100%) scale(1);
+  }
 }
