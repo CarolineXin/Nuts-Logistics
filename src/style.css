@@ -523,11 +523,23 @@ button:focus {
   padding: 15px;
   margin-bottom: 20px;
 }
+.card-text{
+  font-size:25px;
+}
 
 /* 使用媒体查询，当屏幕宽度小于某个阈值时，切换为一列布局 */
 @media (max-width: 768px) {
   .blog-column {
     flex: 0 1 100%; /* 一列布局，占满整个宽度 */
+  }
+  .blog-card-columns {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-text {
+    font-size: 15px;
   }
 }
 

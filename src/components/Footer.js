@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://larian.com/"
+                href="https://dnd.wizards.com/?_ga=2.236725954.232568362.1698196067-2133314331.1698196066"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

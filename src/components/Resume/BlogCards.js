@@ -10,7 +10,7 @@ function BlogCards(props) {
     <Card className="blog-card-view">
       <Card.Body>
         <Card.Title style={{fontSize:"50px",color:props.color,padding:"30px"}}>{props.title}</Card.Title>
-        <Card.Text style={{ fontSize:"25px", textAlign: "justify", whiteSpace:"pre-line",letterSpacing: "3px"}}>
+        <Card.Text className="card-text" style={{textAlign: "justify", whiteSpace:"pre-line",letterSpacing: "3px"}}>
           {props.description}
         </Card.Text>
       </Card.Body>
