@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nuts-Logistics/static/css/main.892b12e6.css",
-    "main.js": "/Nuts-Logistics/static/js/main.8cced044.js",
+    "main.js": "/Nuts-Logistics/static/js/main.e33abb39.js",
     "static/js/415.4d6acbeb.chunk.js": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js",
     "static/media/logo2.png": "/Nuts-Logistics/static/media/logo2.ecece75a978bfaeeb297.png",
@@ -11,12 +11,13 @@
     "static/media/carekonig.png": "/Nuts-Logistics/static/media/carekonig.58fe91716513f7d194f4.png",
     "static/media/Zashier.xlsx": "/Nuts-Logistics/static/media/Zashier.4c998323b703a40b6952.xlsx",
     "static/media/blog.png": "/Nuts-Logistics/static/media/blog.c6f8edc3df70507347ed.png",
+    "static/media/horn.png": "/Nuts-Logistics/static/media/horn.ab3ac4ce9435244a6baf.png",
     "static/media/chatify.png": "/Nuts-Logistics/static/media/chatify.410f28f7241c873b9328.png",
     "static/media/Symbol of Lathander.jpg": "/Nuts-Logistics/static/media/Symbol of Lathander.8e1ad0e6ed192a526564.jpg",
     "static/media/leaf.png": "/Nuts-Logistics/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/Azuar.xlsx": "/Nuts-Logistics/static/media/Azuar.df6f752f631175ed2bee.xlsx",
     "static/media/codeEditor.png": "/Nuts-Logistics/static/media/codeEditor.bf39b7a87212c9c4ad3d.png",
-    "static/media/emotion.png": "/Nuts-Logistics/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/emotion.png": "/Nuts-Logistics/static/media/emotion.6e118a3eac257c6d931f.png",
     "static/media/home-bg.jpg": "/Nuts-Logistics/static/media/home-bg.ce82166f085dff570b2a.jpg",
     "static/media/suicide.png": "/Nuts-Logistics/static/media/suicide.16e7bc51c05b5ceb1d34.png",
     "static/media/rabbit.jpg": "/Nuts-Logistics/static/media/rabbit.9e30a7a617b745d9ab5d.jpg",
@@ -35,12 +36,12 @@
     "static/media/pre.svg": "/Nuts-Logistics/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Nuts-Logistics/index.html",
     "main.892b12e6.css.map": "/Nuts-Logistics/static/css/main.892b12e6.css.map",
-    "main.8cced044.js.map": "/Nuts-Logistics/static/js/main.8cced044.js.map",
+    "main.e33abb39.js.map": "/Nuts-Logistics/static/js/main.e33abb39.js.map",
     "415.4d6acbeb.chunk.js.map": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.892b12e6.css",
-    "static/js/main.8cced044.js"
+    "static/js/main.e33abb39.js"
   ]
 }
