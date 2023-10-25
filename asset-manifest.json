@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nuts-Logistics/static/css/main.76552da2.css",
-    "main.js": "/Nuts-Logistics/static/js/main.e308842b.js",
+    "main.css": "/Nuts-Logistics/static/css/main.59e722c4.css",
+    "main.js": "/Nuts-Logistics/static/js/main.b7386671.js",
     "static/js/415.4d6acbeb.chunk.js": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js",
     "static/media/logo2.png": "/Nuts-Logistics/static/media/logo2.ecece75a978bfaeeb297.png",
@@ -34,13 +34,13 @@
     "static/media/avatar.svg": "/Nuts-Logistics/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/Nuts-Logistics/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Nuts-Logistics/index.html",
-    "main.76552da2.css.map": "/Nuts-Logistics/static/css/main.76552da2.css.map",
-    "main.e308842b.js.map": "/Nuts-Logistics/static/js/main.e308842b.js.map",
+    "main.59e722c4.css.map": "/Nuts-Logistics/static/css/main.59e722c4.css.map",
+    "main.b7386671.js.map": "/Nuts-Logistics/static/js/main.b7386671.js.map",
     "415.4d6acbeb.chunk.js.map": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76552da2.css",
-    "static/js/main.e308842b.js"
+    "static/css/main.59e722c4.css",
+    "static/js/main.b7386671.js"
   ]
 }
