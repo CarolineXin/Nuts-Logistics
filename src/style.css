@@ -557,8 +557,15 @@ button:focus {
 }
 
 .equal-height-card {
-  height: 360px; /* Adjust the height as needed */
+  height: 350px; /* Adjust the height as needed */
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .equal-height-card{
+    height:400px;
+    overflow:scroll;
+  }
 }
 
 

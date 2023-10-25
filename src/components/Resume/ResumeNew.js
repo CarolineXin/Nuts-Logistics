@@ -40,11 +40,17 @@ function ResumeNew() {
             </div>
 
             {selectedTag && selectedTag.value === "坚果茶水间" && (
+                <div>
                 <CreateBlogCards />
+                <div style={{margin:"120px"}}></div>
+                </div>
             )}
 
             {selectedTag && selectedTag.value === "冰风谷秘闻" && (
+              <div>
                 <CreateBlogCards2 />
+                <div style={{margin:"120px"}}></div>
+                </div>
             )}
 
             {selectedTag && selectedTag.value === "人员档案" && (

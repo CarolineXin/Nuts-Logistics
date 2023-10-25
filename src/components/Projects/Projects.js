@@ -147,7 +147,8 @@ function Projects() {
           </Col>
           </Row>
         <Row style={{justifyContent: "center"}}>
-        <Col md={6} className="project-card">
+        <Col md={6} className="project-card" 
+              style={{marginBottom:"100px"}}>
         <ProjectCard
               imgPath={suicide}
               isBlog={false}
