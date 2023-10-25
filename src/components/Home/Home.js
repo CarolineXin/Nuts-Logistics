@@ -9,6 +9,7 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
+    <div className="background-container">
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -43,6 +44,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      </div>
     </section>
   );
 }

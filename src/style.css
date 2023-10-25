@@ -273,6 +273,13 @@ button:focus {
   padding-top: 80px !important;
 }
 
+.background-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; /* Prevent content overflow on smaller screens */
+}
+
+
 .home-section {
   position: relative;
   z-index: -1;
@@ -285,6 +292,8 @@ button:focus {
   background-size: cover; /* 将 background-size 设置为 "cover" */
   height: 100vh; /* 设置高度为视口高度 */
   margin: 0; /* 可能需要设置 margin 为 0，以去除默认的页面边距 */
+  
+  background-attachment: fixed; /* Keeps the background fixed */
 }
 
 .home-content {
