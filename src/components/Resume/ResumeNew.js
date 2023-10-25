@@ -30,7 +30,7 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section" style={{margin:"40px"}}>
+      <Container fluid className="resume-section">
         <Particle />
           <div className="row">
             <div className="col-md-4">

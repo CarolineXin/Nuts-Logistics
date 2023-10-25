@@ -2,23 +2,23 @@ import React from "react";
 import BlogCards from "./BlogCards";
 import info from "./blogs/document_info.json";
 
-function createBlogCards(props){
-  
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
+function createBlogCards(props) {
   const blogCardsArray = info.map((file) => (
-    <BlogCards key={file.id} color ={file.color} title={file.title} description={file.content} />
+    <Col key={file.id} md={6}>
+      <BlogCards color={file.color} title={file.title} description={file.content} />
+    </Col>
   ));
 
-  const columns = [[], []]; // 两列
-
-  blogCardsArray.forEach((card, index) => {
-    columns[index % 2].push(card);
-  });
-
   return (
-    <div className="blog-card-columns">
-      <div className="blog-column">{columns[0]}</div>
-      <div className="blog-column">{columns[1]}</div>
-    </div>
+    <Container fluid className="blog-card-columns">
+      <Row>
+        {blogCardsArray}
+      </Row>
+    </Container>
   );
 }
 

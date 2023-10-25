@@ -14,7 +14,7 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title className="project-card-title">{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
@@ -24,7 +24,14 @@ function ProjectCards(props) {
               variant="primary"
               href={props.link}
               target="_blank"
-              style={{ maxWidth: "250px" }}
+              style={{
+              maxWidth: "250px",
+              backgroundColor: "purple",
+              transition: "background-color 0.3s",
+              ":hover": {
+                backgroundColor: "6d20c5d7",
+              }
+            }}
             >
               <AiOutlineDownload />
               &nbsp;Download CV

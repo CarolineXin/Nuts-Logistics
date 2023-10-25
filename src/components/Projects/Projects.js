@@ -20,7 +20,7 @@ import Toolstack from "../About/Toolstack";
 function Projects() {
   const [num, setNum] = React.useState(2845);
   return (
-    <Container fluid className="project-section" style={{marginBottom:"70px"}}>
+    <Container fluid className="project-section" style={{margin:"0px",padding:"0px"}}>
       <Particle />
 
       <Container className="home-content">
