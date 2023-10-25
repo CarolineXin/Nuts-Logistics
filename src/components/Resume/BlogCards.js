@@ -11,7 +11,7 @@ function BlogCards(props) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
-  const descriptionToShow = isExpanded ? props.description : props.description.slice(0, 150) + '...';
+  const descriptionToShow = isExpanded ? props.description : props.description.slice(0, 100) + '...';
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -34,7 +34,7 @@ function BlogCards(props) {
       <Card.Body className="d-flex flex-column">
         <Row>
           <Col>
-            <Card.Title style={{ fontSize: '38px', color: props.color, padding: '30px' }}>
+            <Card.Title style={{fontSize:"32px",color: props.color, padding: '30px' }}>
               {props.title}
             </Card.Title>
             <Card.Text className={`card-text ${isExpanded ? 'expanded' : 'collapsed'}`} style={{ textAlign: 'justify', whiteSpace: 'pre-line', letterSpacing: '3px' }}>
