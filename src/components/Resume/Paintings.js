@@ -9,6 +9,9 @@ import credit from "../../Assets/credit.png";
 import joke1 from "../../Assets/joke1.jpg";
 import joke2 from "../../Assets/joke2.jpg";
 
+import horn from "../../Assets/horn.png";
+import emotion from "../../Assets/emotion.png";
+
 import { AiOutlineDownload } from "react-icons/ai";
 import azuarImg from "../../Assets/azuar.png";
 import zashierImg from "../../Assets/z-a-hir.png";
@@ -62,6 +65,23 @@ function Paintings(){
         </Col>
       </Row>
 
+      <Row style={{ justifyContent: "center" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={emotion}
+            isBlog={false}
+            title="产生多余情感的小扎"
+          />
+        </Col>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={horn}
+            isBlog={false}
+            title="和他所托的非人"
+          />
+        </Col>
+      </Row>
+      <div style={{margin:"60px"}}/>
     </div>
     );
 }
