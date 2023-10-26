@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nuts-Logistics/static/css/main.892b12e6.css",
-    "main.js": "/Nuts-Logistics/static/js/main.e33abb39.js",
+    "main.js": "/Nuts-Logistics/static/js/main.ee179748.js",
     "static/js/415.4d6acbeb.chunk.js": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js",
     "static/media/logo2.png": "/Nuts-Logistics/static/media/logo2.ecece75a978bfaeeb297.png",
@@ -24,6 +24,8 @@
     "static/media/home-bg2.jpg": "/Nuts-Logistics/static/media/home-bg2.2149858daef66a5fcd6a.jpg",
     "static/media/care2.png": "/Nuts-Logistics/static/media/care2.83883935133fb8fab45b.png",
     "static/media/eastheaven.png": "/Nuts-Logistics/static/media/eastheaven.6306461564926bc55054.png",
+    "static/media/lonelywood.png": "/Nuts-Logistics/static/media/lonelywood.06833bdea56b4f66905f.png",
+    "static/media/shane.png": "/Nuts-Logistics/static/media/shane.aced2b7455a5dc71b81e.png",
     "static/media/home-main.svg": "/Nuts-Logistics/static/media/home-main.346f86d58de91b77e895e8196b17a2dc.svg",
     "static/media/about.png": "/Nuts-Logistics/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/joke1.jpg": "/Nuts-Logistics/static/media/joke1.eed0a945e52e9aaafc37.jpg",
@@ -36,12 +38,12 @@
     "static/media/pre.svg": "/Nuts-Logistics/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Nuts-Logistics/index.html",
     "main.892b12e6.css.map": "/Nuts-Logistics/static/css/main.892b12e6.css.map",
-    "main.e33abb39.js.map": "/Nuts-Logistics/static/js/main.e33abb39.js.map",
+    "main.ee179748.js.map": "/Nuts-Logistics/static/js/main.ee179748.js.map",
     "415.4d6acbeb.chunk.js.map": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.892b12e6.css",
-    "static/js/main.e33abb39.js"
+    "static/js/main.ee179748.js"
   ]
 }
