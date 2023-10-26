@@ -14,6 +14,9 @@ import care1 from "../../Assets/Projects/carekonig.png";
 import care2 from "../../Assets/Projects/care2.png";
 import eastheaven from "../../Assets/Projects/eastheaven.png";
 
+import lonelywood from "../../Assets/Projects/lonelywood.png";
+import shane from "../../Assets/Projects/shane.png";
+
 import AnimatedNumbers from "react-animated-numbers";
 import Toolstack from "../About/Toolstack";
 
@@ -146,6 +149,29 @@ function Projects() {
             />
           </Col>
           </Row>
+
+          <Row style={{justifyContent:"center"}}>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={lonelywood}
+              isBlog={false}
+              title="独林镇"
+              description="位于冰风谷东南部的独林镇如其名字所述，盛产优质木材。然而，近日，这里的森林也饱受一股瘟疫寒气之苦，致使进一步开发遭受困难。来到此地的坚果物流解决了森林的隐患，并与独林镇的发言人妮慕希·蜷蜷签订了互利互惠的条约，并在此地初步设立了物流仓库。"
+            />
+          </Col>
+
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={shane}
+              isBlog={false}
+              title="布林山德"
+              description="布林山德位于冰风谷南部，是连接剑湾大部和十镇的要冲之地，也是十镇中人口最多的城镇之一。年轻有为的发言人杜维莎与坚果物流众人甫一见面，便迅速敲定了此后的合作方案。很快，坚果物流筑剑湾北部办事处将在布林山德的地平线上升起，为这座繁荣的小镇进一步增光添彩。"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+          </Row>
+
+
         <Row style={{justifyContent: "center"}}>
         <Col md={6} className="project-card" 
               style={{marginBottom:"100px"}}>
