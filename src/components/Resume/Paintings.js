@@ -11,6 +11,7 @@ import joke2 from "../../Assets/joke2.jpg";
 
 import horn from "../../Assets/horn.png";
 import emotion from "../../Assets/emotion.png";
+import work from "../../Assets/comingtowork.png";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import azuarImg from "../../Assets/azuar.png";
@@ -23,7 +24,7 @@ function Paintings(){
     return (
       <div>
       <Row style={{ justifyContent: "center" }}>
-        <Col md={10} className="project-card">
+        <Col md={8} className="project-card">
           <ProjectCard
             imgPath={homebg}
             isBlog={false}
@@ -78,6 +79,16 @@ function Paintings(){
             imgPath={horn}
             isBlog={false}
             title="和他所托的非人"
+          />
+        </Col>
+      </Row>
+
+      <Row style={{ justifyContent: "center" }}>
+        <Col md={8} className="project-card">
+          <ProjectCard
+            imgPath={work}
+            isBlog={false}
+            title="坚果物流全家福"
           />
         </Col>
       </Row>
