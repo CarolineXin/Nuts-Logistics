@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Nuts-Logistics/static/css/main.892b12e6.css",
-    "main.js": "/Nuts-Logistics/static/js/main.ee179748.js",
+    "main.css": "/Nuts-Logistics/static/css/main.7b2300c2.css",
+    "main.js": "/Nuts-Logistics/static/js/main.787121fb.js",
     "static/js/415.4d6acbeb.chunk.js": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js",
     "static/media/logo2.png": "/Nuts-Logistics/static/media/logo2.ecece75a978bfaeeb297.png",
     "static/media/logo.jpg": "/Nuts-Logistics/static/media/logo.5381b2f75ea68aee306d.jpg",
+    "static/media/comingtowork.png": "/Nuts-Logistics/static/media/comingtowork.d2236b0802d698152091.png",
     "static/media/Antinoa.xlsx": "/Nuts-Logistics/static/media/Antinoa.76cba13267d3fffe6ed5.xlsx",
     "static/media/credit.png": "/Nuts-Logistics/static/media/credit.65b91413a6ef52f65568.png",
     "static/media/carekonig.png": "/Nuts-Logistics/static/media/carekonig.58fe91716513f7d194f4.png",
@@ -37,13 +38,13 @@
     "static/media/avatar.svg": "/Nuts-Logistics/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/Nuts-Logistics/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Nuts-Logistics/index.html",
-    "main.892b12e6.css.map": "/Nuts-Logistics/static/css/main.892b12e6.css.map",
-    "main.ee179748.js.map": "/Nuts-Logistics/static/js/main.ee179748.js.map",
+    "main.7b2300c2.css.map": "/Nuts-Logistics/static/css/main.7b2300c2.css.map",
+    "main.787121fb.js.map": "/Nuts-Logistics/static/js/main.787121fb.js.map",
     "415.4d6acbeb.chunk.js.map": "/Nuts-Logistics/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nuts-Logistics/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.892b12e6.css",
-    "static/js/main.ee179748.js"
+    "static/css/main.7b2300c2.css",
+    "static/js/main.787121fb.js"
   ]
 }
